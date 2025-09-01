@@ -1,0 +1,13 @@
+{
+	"name": "my-app",
+	"type": "module",
+	"scripts": {
+		"test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+	},
+	"dependencies": {
+		"jest": "^30.1.2"
+	},
+	"devDependencies": {
+		"cross-env": "^10.0.0"
+	}
+}

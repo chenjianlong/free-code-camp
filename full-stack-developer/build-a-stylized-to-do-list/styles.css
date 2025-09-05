@@ -1,0 +1,29 @@
+.todo-list li {
+  margin-top: 15px;
+  background-color: #e5f1e5;
+}
+
+.sub-item {
+  padding-bottom: 15px;
+  background-color: #e5f1e5;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:focus {
+  border: 1px solid blue;
+}
+
+a:visited {
+  color: purple;
+}

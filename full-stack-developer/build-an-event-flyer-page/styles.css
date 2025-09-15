@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+}
+
+hr {
+  width: 95%;
+  height: 2px;
+  background-color: DimGrey;
+  margin: 20px auto;
+}
+
+header {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  width: 80%;
+}
+
+section {
+  width: 25%;
+  text-align: left;
+}
+
+footer>p {
+  text-align: center;
+}

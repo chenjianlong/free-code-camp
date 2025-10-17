@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(173, 235, 247);
+}
+
+.form-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 20px;
+  width: 80vw;
+  max-width: 600px;
+  margin: 25vh auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  margin: 10px 0;
+  color: rgb(85, 85, 85);
+  display: block;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 2px 0;
+  margin-bottom: 10px;
+  display: block;
+}
+
+button {
+  background-color: rgb(76, 200, 80);
+  height: 2em;
+  font-size: 1.1rem;
+  margin: 1em auto;
+  display: block;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(76, 175, 80);
+}

@@ -1,0 +1,161 @@
+:root {
+  --max-width: 1600px;
+  --margin-half: calc((100vw - var(--max-width)) / 2);
+}
+
+html, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+  margin: 8px;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+code {
+  font-family: monospace;
+}
+
+article {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 275px;
+  border: none;
+  z-index: 1;
+  border-bottom: 2px solid;
+}
+
+#navbar ul {
+  border: 1px solid;
+  height: 207px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+#main-doc {
+  position: relative;
+  margin-left: -10px;
+  margin-top: 270px;
+}
+
+@media screen and (min-width: 400px) {
+  #main-doc {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 815px) {
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    max-height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+  }
+
+  #navbar ul {
+    height: 88%;
+    border: 0px none;
+  }
+
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 110px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #navbar {
+    border-left: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    left: var(--margin-half);
+  }
+
+  #main-doc {
+    margin-left: calc(var(--margin-half) + 310px);
+    margin-right: calc(var(--margin-half));
+  }
+}

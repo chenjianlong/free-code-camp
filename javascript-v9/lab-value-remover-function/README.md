@@ -1,0 +1,11 @@
+# Implement a Value Remover Function
+
+In this lab, you will create a function that takes an initial array as its first argument, followed by one or more additional arguments representing the values to remove.
+
+**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+
+**User Stories:**
+
+1. You should have a `destroyer` function that accepts an array and one or more additional arguments.
+2. The `destroyer` function should return a new array excluding all elements from the first argument that match any of the subsequent arguments.
+3. The function must accept an indeterminate number of arguments.
